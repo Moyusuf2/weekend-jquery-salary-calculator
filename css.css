@@ -1,0 +1,54 @@
+
+body{
+    background-color:antiquewhite;
+}
+#submit{
+    display: flex;
+    font-size: 18px;
+    margin-left: px;
+    text-align: right;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h1{
+    text-align: center;
+    background-color: gray;
+    color:white;
+    margin: -7px;
+    padding: 40px;
+    border: 0px;
+    outline: 0px;
+    
+}
+:placeholder-shown{
+    border-color: black;
+}
+input{
+    padding:0px solid;
+    margin-right: 10px;
+    
+}
+
+table{
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+    letter-spacing: .5px;
+   
+}
+
+td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  th {
+    background-color: rgb(235,235,235);
+  }
+  td {
+    text-align: center;
+  }
+  

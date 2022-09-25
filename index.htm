@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery.js"></script>
+    <script src="weekendProject.js"></script>
+    <link rel="stylesheet" href="css.css">
+    <title>Salary Calculator</title>
+</head>
+<h1>Salary Calculator</h1>
+<!-- /* 
+application should have an input form that 
+collects _employee first name, last name, ID number, job title, annual salary_*/ -->
+<body>
+    <form action=""><h3>Add employee</h3></form>
+        <label for="first Name"></label>
+        <input type="text" id="fName" placeholder="First Name">
+                
+        <label for="last name"></label>
+        <input type="text" id="lName" placeholder="Last Name">
+                
+         <label for="ID number"></label>    
+         <input type="text" id="idNumb" placeholder="ID Number">  
+                
+         <label for="job title"></label>
+         <input type="text" id="title" placeholder="Job Title">
+            
+          <label for="annual salary"></label>
+          <input type="text" id="salary" placeholder="Annual Salary"><br>
+          <button type="submit" id="submit">Submit</button>
+
+    </form>
+    <table id="table"><h3>Employees</h3></table>
+    <table>
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Annual Salary</th>
+                <th></th>
+              </tr>
+
+        </thead>
+        <tbody id="employees">
+
+        </tbody>
+
+
+      </table>
+
+      <h3 id="total">Total Monthly:</h3>
+</body>
+</html>
